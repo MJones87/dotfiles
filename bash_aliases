@@ -1,3 +1,4 @@
+alias gpi='git pull && npm install'
 alias dig='dig +multi'
 alias dquilt='QUILT_PATCHES=debian/patches quilt'
 alias dstat='dstat --bw'
@@ -39,3 +40,7 @@ alias gb="git branch"
 alias gl="git lola"
 alias grc="git rebase --continue"
 alias gmt="git mergetool"
+alias gph="git push"
+alias gpl="git pull"
+alias nt="npm test"
+alias ns="npm start"
