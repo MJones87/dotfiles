@@ -188,3 +188,5 @@ durandal)
 	alias nogba='wine ~/nogba/NO\$GBA.EXE'
 	;;
 esac
+
+export PATH="$PATH:$HOME/ABACUSWEBSITEROOT/app-tools/bin"
