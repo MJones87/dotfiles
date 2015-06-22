@@ -1,0 +1,29 @@
+# Mac
+**/.DS_Store
+
+# remove WebStorm user files
+.idea/
+**/*.orig
+
+# xcode projects
+**/ZipStore/
+*.ipa
+**/xcuserdata/
+xcuserdata
+*.xcuserstate
+
+# generated directories
+build/
+docs/
+.sass-cache/
+
+# generated files
+#version.js
+**/project.xcworkspace/xcshareddata
+app/assets/custom/styles/out/**/*.css
+**/*.css.map
+
+npm-debug.log
+
+#excel temp files
+~$*.xlsm
